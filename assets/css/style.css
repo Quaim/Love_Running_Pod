@@ -85,7 +85,7 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;s
+    margin-top: 47px;
 }
 
 footer {
@@ -102,5 +102,14 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display:none;
     }
 }
