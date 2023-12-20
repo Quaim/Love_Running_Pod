@@ -137,6 +137,22 @@ main {
     line-height: 20px;
     margin-bottom: 20px;
 }
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat top center / cover;
+    width: 90vh;
+    height: 90vh;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*FOOTER*/
 #social-networks {
     text-align: center;
