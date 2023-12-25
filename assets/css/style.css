@@ -308,6 +308,25 @@ main {
     #photos {
         column-count: 3;
     }
+
+    /*Sign Up Section */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+    #signup-form {
+        position: absolute;
+        left: 10%;
+        top: 150px;
+        max-width: 400px;
+    }
+    .text-input:hover {
+        border-color:#f16c6b;
+    }
+    .join-button:hover {
+        background-color: #fafafa;
+        color:#454b1b;
+    }
 }
 
 /* Large deviced (laptop's  +) */
